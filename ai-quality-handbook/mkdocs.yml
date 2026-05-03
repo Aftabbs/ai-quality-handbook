@@ -1,0 +1,82 @@
+site_name: AI Quality Handbook
+site_description: A single-file, opinionated guide to shipping AI features safely.
+site_url: https://aftabbs.github.io/ai-quality-handbook
+repo_url: https://github.com/Aftabbs/ai-quality-handbook
+edit_uri: edit/main/
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.instant
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.action.edit
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: amber
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: amber
+
+nav:
+  - Home: README.md
+  - "The handbook": HANDBOOK.md
+  - "1-page cheatsheet": cheatsheet.md
+  - "EU AI Act mapping": eu-ai-act-mapping.md
+  - "Templates":
+      - "Behavioral spec": templates/behavioral-spec.md
+      - "Eval plan": templates/eval-plan.md
+      - "Model card": templates/model-card.md
+      - "PII threat model": templates/pii-threat-model.md
+      - "Deployment ticket": templates/deployment-ticket.md
+      - "Incident postmortem": templates/incident-postmortem.md
+      - "Pre-deploy checklist": templates/pre-deploy-checklist.md
+  - "Feature guides":
+      - "Chatbot": feature-guides/chatbot.md
+      - "RAG": feature-guides/rag.md
+      - "Summarizer": feature-guides/summarizer.md
+      - "Code-gen": feature-guides/code-gen.md
+      - "Agent": feature-guides/agent.md
+      - "Classifier": feature-guides/classifier.md
+      - "Image-gen": feature-guides/image-gen.md
+      - "Voice": feature-guides/voice.md
+      - "Multimodal": feature-guides/multimodal.md
+      - "Translation": feature-guides/translation.md
+      - "Search": feature-guides/search.md
+  - "Case studies":
+      - "01 — Summarizer hallucination": case-studies/01-summarizer-hallucination.md
+      - "02 — RAG PII leak": case-studies/02-rag-pii-leak.md
+      - "03 — Prompt change cost runaway": case-studies/03-prompt-change-cost-runaway.md
+      - "04 — Judge drift": case-studies/04-judge-drift.md
+      - "05 — Rollback took 22 minutes": case-studies/05-rollback-took-22-minutes.md
+      - "06 — Locale segment regression": case-studies/06-locale-segment-regression.md
+      - "07 — Agent cost runaway": case-studies/07-agent-cost-runaway.md
+      - "08 — Classifier calibration drift": case-studies/08-classifier-calibration-drift.md
+  - Changelog: CHANGELOG.md
+  - Contributing: CONTRIBUTING.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - tables
+  - toc:
+      permalink: "#"
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Aftabbs/ai-quality-handbook
