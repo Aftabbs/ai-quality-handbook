@@ -7,7 +7,7 @@
 [![EU AI Act-aware](https://img.shields.io/badge/EU%20AI%20Act-aware-ffcc00)](eu-ai-act-mapping.md) 
 
 This is the definitive, single-file guide for the engineering manager, tech lead, or staff engineer who has been asked to ship an AI feature to enterprise — and who knows enough to know they don't yet know how to do it safely.
-
+ 
 It's also for the AI engineer at a 50-person startup staring at the OWASP LLM Top 10, the EU AI Act, and the third "the AI promised a refund" Slack message this quarter.
 
 ---
