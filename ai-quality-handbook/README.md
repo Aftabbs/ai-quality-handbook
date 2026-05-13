@@ -4,7 +4,7 @@
 
 [![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-sa/4.0/)
 [![Version: 1.0](https://img.shields.io/badge/Version-1.0-blue)](HANDBOOK.md)
-[![EU AI Act-aware](https://img.shields.io/badge/EU%20AI%20Act-aware-ffcc00)](eu-ai-act-mapping.md) 
+[![EU AI Act-aware](https://img.shields.io/badge/EU%20AI%20Act-aware-ffcc00)](eu-ai-act-mapping.md)  
 
 This is the definitive, single-file guide for the engineering manager, tech lead, or staff engineer who has been asked to ship an AI feature to enterprise — and who knows enough to know they don't yet know how to do it safely.
  
